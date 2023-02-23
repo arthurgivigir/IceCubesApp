@@ -12,6 +12,20 @@
 		069709A5298C8545006E4CB5 /* Atkinson-Hyperlegible-Regular-102.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 069709A3298C8545006E4CB5 /* Atkinson-Hyperlegible-Regular-102.ttf */; };
 		069709A8298C87B5006E4CB5 /* OpenDyslexic-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 069709A7298C87B5006E4CB5 /* OpenDyslexic-Regular.otf */; };
 		069709AA298C9AD7006E4CB5 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069709A9298C9AD7006E4CB5 /* AboutView.swift */; };
+		5630566B29A81A6500E17014 /* Explore in Frameworks */ = {isa = PBXBuildFile; productRef = 5630566A29A81A6500E17014 /* Explore */; };
+		5630566D29A81A6500E17014 /* Models in Frameworks */ = {isa = PBXBuildFile; productRef = 5630566C29A81A6500E17014 /* Models */; };
+		5630566F29A81A6500E17014 /* Network in Frameworks */ = {isa = PBXBuildFile; productRef = 5630566E29A81A6500E17014 /* Network */; };
+		5630567129A81A6500E17014 /* Status in Frameworks */ = {isa = PBXBuildFile; productRef = 5630567029A81A6500E17014 /* Status */; };
+		5630567529A81AA300E17014 /* LRUCache in Frameworks */ = {isa = PBXBuildFile; productRef = 5630567429A81AA300E17014 /* LRUCache */; };
+		5630567729A81B4B00E17014 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 5630567629A81B4B00E17014 /* DesignSystem */; };
+		56BC164229889907003639BF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BC164129889907003639BF /* WidgetKit.framework */; };
+		56BC164429889907003639BF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BC164329889907003639BF /* SwiftUI.framework */; };
+		56BC164729889907003639BF /* IceCubesWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC164629889907003639BF /* IceCubesWidgetBundle.swift */; };
+		56BC164B29889907003639BF /* IceCubesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BC164A29889907003639BF /* IceCubesWidget.swift */; };
+		56BC164E29889909003639BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BC164D29889909003639BF /* Assets.xcassets */; };
+		56BC165029889909003639BF /* IceCubesWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 56BC164C29889907003639BF /* IceCubesWidget.intentdefinition */; };
+		56BC165129889909003639BF /* IceCubesWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 56BC164C29889907003639BF /* IceCubesWidget.intentdefinition */; };
+		56BC165429889909003639BF /* IceCubesWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 56BC164029889907003639BF /* IceCubesWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		639CDF9C296AC82F00C35E58 /* SafariRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639CDF9B296AC82F00C35E58 /* SafariRouter.swift */; };
 		7429BCE2297C55D00069A946 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 7429BCE4297C55D00069A946 /* Localizable.stringsdict */; };
 		7429BCE5297C5A750069A946 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 7429BCE4297C55D00069A946 /* Localizable.stringsdict */; };
@@ -107,6 +121,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		56BC165229889909003639BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FBFE631292A715500C250E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56BC163F29889907003639BF;
+			remoteInfo = IceCubesWidgetExtension;
+		};
 		9F2A541B296AB631009B2D7C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9FBFE631292A715500C250E9 /* Project object */;
@@ -138,6 +159,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				E9DF420729830FEC0003AAD2 /* IceCubesActionExtension.appex in Embed Foundation Extensions */,
+				56BC165429889909003639BF /* IceCubesWidgetExtension.appex in Embed Foundation Extensions */,
 				9F2A541D296AB631009B2D7C /* IceCubesNotifications.appex in Embed Foundation Extensions */,
 				9FAD859229743F7400496AB1 /* IceCubesShareExtension.appex in Embed Foundation Extensions */,
 			);
@@ -155,6 +177,15 @@
 		364A57862999B12500D68321 /* be */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = be; path = be.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56B5BC132984206F00CF3A98 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = "pt-BR"; path = "pt-BR.lproj/Localizable.stringsdict"; sourceTree = "<group>"; };
 		56B5BC142984206F00CF3A98 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		56BC164029889907003639BF /* IceCubesWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IceCubesWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BC164129889907003639BF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		56BC164329889907003639BF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		56BC164629889907003639BF /* IceCubesWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCubesWidgetBundle.swift; sourceTree = "<group>"; };
+		56BC164A29889907003639BF /* IceCubesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCubesWidget.swift; sourceTree = "<group>"; };
+		56BC164C29889907003639BF /* IceCubesWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = IceCubesWidget.intentdefinition; sourceTree = "<group>"; };
+		56BC164D29889909003639BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56BC164F29889909003639BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56CC8A8129889BED00438853 /* IceCubesWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IceCubesWidgetExtension.entitlements; sourceTree = "<group>"; };
 		639CDF9B296AC82F00C35E58 /* SafariRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariRouter.swift; sourceTree = "<group>"; };
 		7429BCE3297C55D00069A946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		7429BCE7297C5D010069A946 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = nl; path = nl.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
@@ -272,6 +303,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		56BC163D29889907003639BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5630566B29A81A6500E17014 /* Explore in Frameworks */,
+				56BC164429889907003639BF /* SwiftUI.framework in Frameworks */,
+				5630566D29A81A6500E17014 /* Models in Frameworks */,
+				5630567729A81B4B00E17014 /* DesignSystem in Frameworks */,
+				56BC164229889907003639BF /* WidgetKit.framework in Frameworks */,
+				5630567129A81A6500E17014 /* Status in Frameworks */,
+				5630566F29A81A6500E17014 /* Network in Frameworks */,
+				5630567529A81AA300E17014 /* LRUCache in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F2A5413296AB631009B2D7C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,6 +387,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56BC164529889907003639BF /* IceCubesWidget */ = {
+			isa = PBXGroup;
+			children = (
+				56CC8A8129889BED00438853 /* IceCubesWidgetExtension.entitlements */,
+				56BC164629889907003639BF /* IceCubesWidgetBundle.swift */,
+				56BC164A29889907003639BF /* IceCubesWidget.swift */,
+				56BC164C29889907003639BF /* IceCubesWidget.intentdefinition */,
+				56BC164D29889909003639BF /* Assets.xcassets */,
+				56BC164F29889909003639BF /* Info.plist */,
+			);
+			path = IceCubesWidget;
+			sourceTree = "<group>";
+		};
 		7429BCEA297C64CF0069A946 /* Plurals */ = {
 			isa = PBXGroup;
 			children = (
@@ -452,6 +511,7 @@
 				E9DF41FD29830FEC0003AAD2 /* IceCubesActionExtension */,
 				9F2A5417296AB631009B2D7C /* IceCubesNotifications */,
 				9FAD858929743F7400496AB1 /* IceCubesShareExtension */,
+				56BC164529889907003639BF /* IceCubesWidget */,
 				9FBFE63A292A715500C250E9 /* Products */,
 				9FBFE64C292A72BD00C250E9 /* Frameworks */,
 				9FE3DB55296FEF5800628CB0 /* AppAccount */,
@@ -476,6 +536,7 @@
 				9F2A5416296AB631009B2D7C /* IceCubesNotifications.appex */,
 				9FAD858829743F7400496AB1 /* IceCubesShareExtension.appex */,
 				E9DF41FA29830FEC0003AAD2 /* IceCubesActionExtension.appex */,
+				56BC164029889907003639BF /* IceCubesWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -502,6 +563,8 @@
 				9F7335EE29674F7100AFF0BA /* QuickLook.framework */,
 				9F7335EB2967461B00AFF0BA /* AVKit.framework */,
 				E9DF41FB29830FEC0003AAD2 /* UniformTypeIdentifiers.framework */,
+				56BC164129889907003639BF /* WidgetKit.framework */,
+				56BC164329889907003639BF /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -549,6 +612,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		56BC163F29889907003639BF /* IceCubesWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56BC165729889909003639BF /* Build configuration list for PBXNativeTarget "IceCubesWidgetExtension" */;
+			buildPhases = (
+				56BC163C29889907003639BF /* Sources */,
+				56BC163D29889907003639BF /* Frameworks */,
+				56BC163E29889907003639BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IceCubesWidgetExtension;
+			packageProductDependencies = (
+				5630566A29A81A6500E17014 /* Explore */,
+				5630566C29A81A6500E17014 /* Models */,
+				5630566E29A81A6500E17014 /* Network */,
+				5630567029A81A6500E17014 /* Status */,
+				5630567429A81AA300E17014 /* LRUCache */,
+				5630567629A81B4B00E17014 /* DesignSystem */,
+			);
+			productName = IceCubesWidgetExtension;
+			productReference = 56BC164029889907003639BF /* IceCubesWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		9F2A5415296AB631009B2D7C /* IceCubesNotifications */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F2A541E296AB631009B2D7C /* Build configuration list for PBXNativeTarget "IceCubesNotifications" */;
@@ -619,6 +707,7 @@
 				9F2A541C296AB631009B2D7C /* PBXTargetDependency */,
 				9FAD859129743F7400496AB1 /* PBXTargetDependency */,
 				E9DF420629830FEC0003AAD2 /* PBXTargetDependency */,
+				56BC165329889909003639BF /* PBXTargetDependency */,
 			);
 			name = IceCubesApp;
 			packageProductDependencies = (
@@ -673,6 +762,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					56BC163F29889907003639BF = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					9F2A5415296AB631009B2D7C = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -726,11 +818,20 @@
 				E9DF41F929830FEC0003AAD2 /* IceCubesActionExtension */,
 				9F2A5415296AB631009B2D7C /* IceCubesNotifications */,
 				9FAD858729743F7400496AB1 /* IceCubesShareExtension */,
+				56BC163F29889907003639BF /* IceCubesWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		56BC163E29889907003639BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BC164E29889909003639BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F2A5414296AB631009B2D7C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -789,6 +890,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		56BC163C29889907003639BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BC164729889907003639BF /* IceCubesWidgetBundle.swift in Sources */,
+				56BC164B29889907003639BF /* IceCubesWidget.swift in Sources */,
+				56BC165029889909003639BF /* IceCubesWidget.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9F2A5412296AB631009B2D7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -818,6 +929,7 @@
 				9F35DB4C2952005C00B3281A /* MessagesTab.swift in Sources */,
 				9FAD85CF2975B68900496AB1 /* SideBarView.swift in Sources */,
 				9FAE4ACB293783B000772766 /* SettingsTab.swift in Sources */,
+				56BC165129889909003639BF /* IceCubesWidget.intentdefinition in Sources */,
 				9F7335F92968576500AFF0BA /* DisplaySettingsView.swift in Sources */,
 				9F2A540729699698009B2D7C /* SupportAppView.swift in Sources */,
 				9F2B92F6295AE04800DE16D0 /* Tabs.swift in Sources */,
@@ -849,6 +961,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		56BC165329889909003639BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56BC163F29889907003639BF /* IceCubesWidgetExtension */;
+			targetProxy = 56BC165229889909003639BF /* PBXContainerItemProxy */;
+		};
 		9F2A541C296AB631009B2D7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
@@ -939,6 +1056,73 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		56BC165529889909003639BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = IceCubesWidget/IceCubesWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 730;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IceCubesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IceCubesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.5.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp.IceCubesWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56BC165629889909003639BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = IceCubesWidget/IceCubesWidgetExtension.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 730;
+				DEVELOPMENT_TEAM = "$(DEVELOPMENT_TEAM)";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IceCubesWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IceCubesWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.5.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID_PREFIX).IceCubesApp.IceCubesWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		9F2A541F296AB631009B2D7C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1348,6 +1532,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		56BC165729889909003639BF /* Build configuration list for PBXNativeTarget "IceCubesWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BC165529889909003639BF /* Debug */,
+				56BC165629889909003639BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9F2A541E296AB631009B2D7C /* Build configuration list for PBXNativeTarget "IceCubesNotifications" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1432,6 +1625,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 065FA1FC29866CD600012EA0 /* XCRemoteSwiftPackageReference "LRUCache" */;
 			productName = LRUCache;
+		};
+		5630566A29A81A6500E17014 /* Explore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Explore;
+		};
+		5630566C29A81A6500E17014 /* Models */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Models;
+		};
+		5630566E29A81A6500E17014 /* Network */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Network;
+		};
+		5630567029A81A6500E17014 /* Status */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Status;
+		};
+		5630567429A81AA300E17014 /* LRUCache */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 065FA1FC29866CD600012EA0 /* XCRemoteSwiftPackageReference "LRUCache" */;
+			productName = LRUCache;
+		};
+		5630567629A81B4B00E17014 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
 		};
 		9F29553F292B6C3400E0E81B /* Timeline */ = {
 			isa = XCSwiftPackageProductDependency;
